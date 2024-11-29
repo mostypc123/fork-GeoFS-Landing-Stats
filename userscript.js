@@ -12,6 +12,10 @@
 setTimeout((function() {
     'use strict';
 
+    setTimeout(() => {
+      console.log('delay to avoid unwanted stats opening on landing');
+    }, 5000);
+    
     window.closeTimer = false; // Set to true if you want a timer to close the landing stats. Set to false if you want to manually close the landing stats.
     window.closeSeconds = 10; // Number of seconds to wait before closing the landing stats.
 
