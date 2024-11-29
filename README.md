@@ -14,10 +14,10 @@ This is a JavaScript plugin for GeoFS that shows your landing statistics after y
 - **Touchdown Zone Indicator**: Shows whether you landed in the touch down zone.
 - **Bounce Counter**: Shows the amount of bounces when landing.
 
-## Usage Instructions
+## Usage Instructions (using a userscript extension)
 
 1. **Installation**:
-   - Use a userscript extension like Tampermoney or Violentmoney to manage and run userscripts.
+   - Use a userscript extension like Tampermonkey or Violentmonkey to manage and run userscripts.
    - Once the extension is installed, create a new script, paste in the code from userscript.js, and save it.
 
 2. **Viewing the Stats**:
@@ -26,6 +26,9 @@ This is a JavaScript plugin for GeoFS that shows your landing statistics after y
 
 3. **Configuration** (optional):
    - **Automatic Close**: By default, the panel will not automatically close. You can change this by changing the `window.closeTimer` and `window.closeSeconds` variables on line 15 and 16.
+
+## Usage Instructions (using the console)
+If you, for some reason, want to make your life harder, you can copy and paste the userscript to the console of your web browser, but we do not recommend using this.
 
 ## Additional Notes
 
